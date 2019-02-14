@@ -1,0 +1,141 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.container {
+	width: 970px;
+}
+.slider_area {
+	position: relative;
+	padding: 49px 20px;
+	height:0px
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.container{
+	width:750px
+} 
+.top_bar_left_1 i, .top_bar_left_2 i {
+	left: -6px;
+	font-size: 11px;
+}
+ .top_bar_left_1 p {
+	padding-left: 10px;
+}
+.top_bar_left_2 {
+	margin-left: 41px;
+}
+.top_bar_right_1 {
+	margin-right: -76px;
+}
+.main_menu ul li a {
+	padding: 24px 10px;
+}
+.slider_area {
+	 padding:0px
+}
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .container{
+	 width:300px
+ }
+ .col-6 {
+	width: 100%;
+}
+.top_bar_left_2 {
+	margin-left: 34px;
+}
+.top_bar_right_1 {
+	margin-right: 116px;
+}
+.social {
+	margin-top: -13px;
+	margin-right: 165px;
+}
+.col-4 {
+	width: 100%;
+}
+.single_service {
+	margin-bottom: 20px;
+}
+.padding_top {
+	padding-top: 0px
+}
+.section_title {
+	width: 100%;
+}
+.about_left {
+	width: 100%;
+	padding: 0px 0px 9px 0px;
+}
+.about_left h3 {
+	font-size: 13px;
+	color: #333;
+	word-spacing: 1px;
+	line-height: 19px;
+}
+.about_left p {
+	font-size: 16px;
+	padding: 16px 0px;
+}
+.blk_btn {
+	padding: 9px 21px;
+	font-size: 12px;
+	word-spacing: 1px;
+}
+.slider_details h2 {
+	font-size: 30px;
+}
+.section_title p {
+	font-size: 13px;
+	line-height: 19px;
+	padding: 6px 0px;
+}
+.col-3 {
+	width: 100%;
+}
+.single_course {
+	margin-bottom: 11px;
+}
+.section_title h2 {
+	font-size: 20px;
+}
+.padding_bottom {
+	padding-bottom: 19px;
+}
+.section_title {
+	padding-bottom: 10px;
+	padding-top: 35px;
+}
+.call_to_action {
+	display: block;
+}
+.call_to_action p {
+	font-size: 20px;
+}
+.call_to_action_area {
+	padding: 42px 0px;
+}
+.border_btn {
+	padding: 12px 9px;
+	font-size: 13px;
+	display: inline-block;
+	margin-top: 15px;
+}
+.single_footer {
+	padding: 0px 23px;
+	margin-top: 17px;
+	min-height:0px
+}
+.slicknav_menu {
+	display: block;
+}
+.main_menu {
+	display: none;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
